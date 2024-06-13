@@ -18,21 +18,39 @@
 
     <EditText
         android:id="@+id/editTextFirstNumber"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/textViewTitle"
         android:layout_marginTop="30dp"
         android:hint="@string/hint_first_number"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:autofillHints="username"
+        android:background="@android:drawable/edit_text"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_centerHorizontal="true"/>
 
     <EditText
         android:id="@+id/editTextSecondNumber"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/editTextFirstNumber"
         android:layout_marginTop="30dp"
         android:hint="@string/hint_second_number"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:autofillHints="username"
+        android:background="@android:drawable/edit_text"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_centerHorizontal="true"/>
 
     <Button
         android:id="@+id/buttonSum"
@@ -42,4 +60,15 @@
         android:layout_marginTop="30dp"
         android:text="@string/button_sum"
         android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonSum"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:text="@string/result_will_be_shown_here"/>
 </RelativeLayout>
