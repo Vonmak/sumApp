@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">summationApp</string>
+    <string name="title_addition">Addition</string>
+    <string name="hint_first_number">Enter First Number</string>
+    <string name="hint_second_number">Enter Second Number</string>
+    <string name="button_sum">SUM</string>
+    <string name="error_invalid_input">Please enter valid numbers</string>
+    <string name="error_empty_input">Please enter both numbers</string>
+    <string name="sum_result">Sum: </string>
+</resources>
